@@ -27,10 +27,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array;
 }
 
-function removeElementFromBeginningOfArray(array){
+function removeElementFromBeginningOfArray(array) {
   return array.slide(1);
 }
 
-function removeElementFromEndOfArray(array){
+function removeElementFromEndOfArray(array) {
   return array.slide(array.length - 1);
 }
